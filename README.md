@@ -2,17 +2,14 @@
 
 Dockerfile to build mozc-ut
 
+Special thanks to https://github.com/utuhiro78/merge-ut-dictionaries
+
 ## Usage
 
 ### Ubuntu 22.04
 
 ```
 ./build.sh
-```
-
-```
-docker run --rm -it -v $PWD/dist:/ws ghcr.io/tiryoh/fcitx5-mozc-ut:jammy
-cp /tmp/mozc-src/*.deb /ws/  # run this command in the container
 ```
 
 ## Reference
